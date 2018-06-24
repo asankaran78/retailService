@@ -102,6 +102,11 @@
     "message": "ProductId doesn't exist in the DataStore",
     "path": "/products/138604"
     }  
+    
+## Testing
+
+#### The tests for these 2 API are /src/test/java/com/myRetail/retailService for Controller and Service
+#### They can be executed using command gradlew test
 
 
 
