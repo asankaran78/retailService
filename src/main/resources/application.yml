@@ -1,0 +1,16 @@
+info:
+  description: "Proof-of-Concept for a products API"
+
+server:
+  port: 9000
+
+spring:
+  data:
+    mongodb:
+      database: myRetail
+      host: localhost
+      port: 27017
+
+serviceUrl:
+ redSkyServiceUrl:
+   https://redsky.target.com/v1/pdp/tcin/{productId}?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics
