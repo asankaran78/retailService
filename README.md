@@ -1,5 +1,5 @@
 # Retail Service
-## RetailService provides ability to retrieve product and update Price information in the local Datastore.
+## RetailService provides ability to aggregate product information from external resource and local datastore  and also update Price information in the local Datastore.
 
 ## Technologies used
 
